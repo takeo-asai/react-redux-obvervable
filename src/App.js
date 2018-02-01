@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import Counter from './containers/Counter';
+import PingPong from './containers/PingPong';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,6 +18,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <Counter />
+        <PingPong />
       </div>
     );
   }
