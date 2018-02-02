@@ -1,5 +1,3 @@
-/* @flow */
-
 import React, { Component } from 'react';
 import Counter from './containers/Counter';
 import PingPong from './containers/PingPong';
