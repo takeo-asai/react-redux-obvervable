@@ -1,7 +1,7 @@
-/* @flow */ 
+/* @flow */
 
 import React, { Component } from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import Actions from '../../actions';
 
 class Counter extends Component {
@@ -16,13 +16,15 @@ class Counter extends Component {
   }
 }
 function mapStateToProps(state) {
-    return state
+  return state;
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    handleClick: () => { dispatch(Actions.increment()) }
-  }
+    handleClick: () => {
+      dispatch(Actions.increment());
+    },
+  };
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Counter);

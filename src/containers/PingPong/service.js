@@ -1,7 +1,5 @@
-export const pong = (t) => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(true);
-        }, 1000 * t);
-    });
-};
+export const pong = t => new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve(true);
+  }, 1000 * t);
+});

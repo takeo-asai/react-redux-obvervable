@@ -1,8 +1,4 @@
 export default {
-  increment: () => {
-    return { type: 'INCREMENT' }
-  },
-  ping: () => {
-    return { type: 'PING'}
-  }
-}
+  increment: () => ({ type: 'INCREMENT' }),
+  ping: () => ({ type: 'PING' }),
+};
